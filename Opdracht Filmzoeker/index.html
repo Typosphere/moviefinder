@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Finder</title>
+    <script defer type="text/javascript" src="movies.js"></script>
+    <script defer type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');</style> 
+</head>
+
+<body>
+    <header>
+        <h1>Movie Finder</h1>
+    </header>
+    <main>
+        <nav>
+            <div class="radio-menu">
+                <div>
+                    <input type="radio" id="new" name="film-filter" value="new">
+                    <label for="new">Latest movies</label>
+                </div>
+                <div>
+                    <input type="radio" id="avengers" name="film-filter" value="avengers">
+                    <label for="avengers">Avengers</label>
+                </div>
+                <div>
+                    <input type="radio" id="x-men" name="film-filter" value="x-men">
+                    <label for="x-men">X-Men</label>
+                </div>
+                <div>
+                    <input type="radio" id="princess" name="film-filter" value="princess">
+                    <label for="princess">Princess</label>
+                </div>
+                <div>
+                    <input type="radio" id="batman" name="film-filter" value="batman">
+                    <label for="batman">Batman</label>
+                </div>
+                <div>
+                    <input type="radio" id="all" name="film-filter" value="all">
+                    <label for="batman">All movies</label>
+                </div>
+            </div>
+            <div class="search">
+                <input type="text" id="input-field">
+                <button id="search-button">Search</button>
+            </div>
+        </nav>
+
+        <div class="container">
+            <ul class="movies-list">
+
+            </ul>
+        </div>
+    </main>
+</body>
+
+</html>

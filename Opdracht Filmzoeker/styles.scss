@@ -1,0 +1,63 @@
+
+@font-face {
+    font-family: 'Ubuntu', sans-serif;
+    src: url(Ubuntu);
+}
+
+body {
+    background: #1b1b1b;
+    color: white;
+    margin: 2rem;
+    font-family: Ubuntu;
+}
+
+header{
+    font-size: 40px;
+    text-align: center;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    &li{padding: 1rem;
+}}
+
+.radio-menu{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 3rem;
+    font-size: 30px;
+    background: rgb(61, 61, 61);
+    &  input{
+        height: 1.5em;
+        width: 1.5em;
+    }
+    }
+
+.search{
+    width: 25%;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    & input{
+        width: 15rem;
+        height: 2rem;
+        font-family: Ubuntu;
+        font-size: 25px;
+    }
+    & button{
+        height: 9rem;
+        font-family: Ubuntu;
+        font-size: 10px;
+        color: white;
+        background-color: rgb(61, 61, 61);
+        margin-left: 0.5rem;
+    }
+}
